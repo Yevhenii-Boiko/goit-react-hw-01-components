@@ -34,7 +34,7 @@ export const Profile = ({
   </div>
 );
 
-Profile.PropType = {
+Profile.propTypes = {
   username: PropTypes.string,
   tag: PropTypes.string,
   location: PropTypes.string,

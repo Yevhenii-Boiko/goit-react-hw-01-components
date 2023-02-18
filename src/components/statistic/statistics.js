@@ -1,5 +1,4 @@
-// import PropTypes from 'prop-types';
-// import { StatsItem } from './statisticsItem';
+import PropTypes from 'prop-types';
 
 export const Statistics = ({ items }) => {
   return (
@@ -18,9 +17,9 @@ export const Statistics = ({ items }) => {
   );
 };
 
-// Statistics.PropTypes = {
-//   title: PropTypes.string,
-//   id: PropTypes.string.isRequired,
-//   label: PropTypes.string,
-//   percentage: PropTypes.number,
-// };
+Statistics.propTypes = {
+  title: PropTypes.string,
+  id: PropTypes.string,
+  label: PropTypes.string,
+  percentage: PropTypes.number,
+};

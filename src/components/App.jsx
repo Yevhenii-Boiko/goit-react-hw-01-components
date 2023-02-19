@@ -4,7 +4,7 @@ import user from './data/user.json';
 import { Statistics } from './statistic/statistics';
 import data from './data/data.json';
 
-import { FriendList } from './friends/friendList';
+import { Friends } from './friends/friendList';
 import friends from '../components/data/friends.json';
 
 import { TransactionHistory } from './transactions/transactionHistory';
@@ -19,7 +19,7 @@ export const App = () => {
       <GlobalStyles />
       <Profile userData={user} />
       <Statistics items={data} />
-      <FriendList friends={friends} />
+      <Friends friends={friends} />
       <TransactionHistory items={transactions} />
     </Layout>
   );

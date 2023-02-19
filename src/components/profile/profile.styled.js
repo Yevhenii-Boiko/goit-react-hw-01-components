@@ -47,7 +47,6 @@ export const StatsList = styled.ul`
   margin-bottom: 0;
   width: 100%;
   border-top: 1px solid #eeeeee;
-  list-style-type: none;
   display: flex;
   justify-content: space-between;
   flex-basis: calc(100% / 3);
